@@ -1,2 +1,2 @@
-# pryer-times
+# prayer-times
 prayer times for islamic 
