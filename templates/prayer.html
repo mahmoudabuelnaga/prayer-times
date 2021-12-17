@@ -1,0 +1,42 @@
+{% for res in response %}
+    <h1>
+        Fajr: {{ res.Fajr }} | 
+        Sunrise: {{ res.Sunrise }} | 
+        Dhuhr: {{ res.Dhuhr }} | 
+        Asr: {{ res.Asr }} | 
+        Sunset: {{ res.Sunset }} | 
+        Maghrib: {{ res.Maghrib }} | 
+        Isha: {{ res.Isha }} | 
+        Imsak: {{ res.Imsak }} | 
+        Midnight: {{ res.Midnight }} |
+        readable: {{ res.readable }} | 
+        timestamp: {{ res.timestamp }} | 
+        gregorian: {{ res.gregorian }} | 
+        hijri: {{ res.hijri }} | 
+        latitude: {{ res.latitude }} | 
+        longitude: {{ res.longitude }} | 
+        timezone: {{ res.timezone }} | 
+        method: {{ res.method }}
+
+    </h1>
+{% endfor %}
+{% comment %}
+        Fajr: {{ res.Fajr }} | 
+        Sunrise: {{ res.Sunrise }} | 
+        Dhuhr: {{ res.Dhuhr }} | 
+        Asr: {{ res.Asr }} | 
+        Sunset: {{ res.Sunset }} | 
+        Maghrib: {{ res.Maghrib }} | 
+        Isha: {{ res.Isha }} | 
+        Imsak: {{ res.Imsak }} | 
+        Midnight: {{ res.Midnight }} |
+
+        readable: {{ res.readable }} | 
+        timestamp: {{ res.timestamp }} | 
+        gregorian: {{ res.gregorian }} | 
+        hijri: {{ res.hijri }} | 
+        latitude: {{ res.latitude }} | 
+        longitude: {{ res.longitude }} | 
+        timezone: {{ res.timezone }} | 
+        method: {{ res.method }}
+{% endcomment %}
